@@ -3,8 +3,6 @@ import './About.css';
 
 const About = () => {
   const frontend = ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'];
-  const backend = ['Node.js', 'Express.js', 'REST API', 'API Integration'];
-  const database = ['MongoDB', 'PostgreSQL', 'SQLite'];
 
   return (
     <section id="about" className="section">
