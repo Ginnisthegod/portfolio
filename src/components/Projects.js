@@ -4,32 +4,33 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
-      title: 'Mobile-First Checkout Flow',
-      description: 'Developed a lightweight, performant checkout UI designed to handle intermittent connectivity and deliver instant user feedback.',
-      tech: ['Next.js 14', 'TypeScript', 'Node.js', 'Socket.io', 'MongoDB', 'TailwindCSS'],
+      title: 'TechDevSocial',
+      description: 'A developer-focused social platform where tech professionals connect, share knowledge, and collaborate. Contributed to the frontend, building responsive UI components, authentication flows, and interactive feeds with a focus on performance and clean user experience.',
+      tech: ['Next.js 14', 'TypeScript', 'TailwindCSS'],
+      code: '#',
+      demo: 'https://techdevsocial.vercel.app/auth/login'
+    },
+    {
+      title: 'Valentine Site',
+      description: 'A fun and interactive Valentine\'s Day web experience featuring animated UI, heartfelt messages, and smooth transitions to surprise a special someone.',
+      tech: ['HTML', 'CSS', 'JavaScript'],
       code: 'https://github.com/Ginnisthegod/val.git',
-      demo: 'https://valsite.vercel.app/'
+      demo: 'https://val-rki2.vercel.app/'
     },
     {
-      title: 'Newhope Hospital Project',
-      description: 'Hospital management dashboard with patient records, appointment scheduling, and medical staff coordination for healthcare administration.',
-      tech: ['Next.js 14', 'TypeScript', 'Node.js', 'Express.js', 'PostgreSQL', 'TailwindCSS'],
-      code: 'https://github.com/Ginnisthegod',
-      demo: '#'
+      title: 'UniHubSocial',
+      description: 'A social media platform built exclusively for university students to connect, share updates, and engage with their campus community. Contributed to the frontend, building responsive UI components and interactive feeds.',
+      tech: ['Next.js', 'TypeScript', 'TailwindCSS'],
+      code: '#',
+      demo: 'https://unihubsocial.netlify.app/'
     },
-    {
-      title: 'Novapay',
-      description: 'A modern payment platform built to simplify transactions and financial management.',
-      tech: ['Next.js', 'TypeScript', 'Node.js', 'Express.js', 'MongoDB', 'TailwindCSS'],
-      code: 'https://github.com/Ginnisthegod',
-      demo: '#'
-    },
+    
     {
       title: 'Educeptis',
-      description: 'EdTech platform concept focused on transforming education in Africa through innovative learning solutions. Currently in development.',
-      tech: ['Next.js', 'TypeScript', 'Node.js', 'Express.js', 'MongoDB', 'TailwindCSS'],
-      code: 'https://github.com/Ginnisthegod',
-      demo: '#'
+      description: 'An EdTech platform focused on transforming education in Africa through innovative learning solutions. Contributed to the frontend, building responsive UI components and intuitive user interfaces. Currently in development.',
+      tech: ['Next.js', 'TypeScript', 'TailwindCSS'],
+      code: '#',
+      demo: 'https://eduresumebuilder.netlify.app/'
     }
   ];
 
