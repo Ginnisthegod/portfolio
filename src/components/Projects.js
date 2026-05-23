@@ -7,8 +7,15 @@ const Projects = () => {
       title: 'TechDevSocial',
       description: 'A developer-focused social platform where tech professionals connect, share knowledge, and collaborate. Contributed to the frontend, building responsive UI components, authentication flows, and interactive feeds with a focus on performance and clean user experience.',
       tech: ['Next.js 14', 'TypeScript', 'TailwindCSS'],
-      code: '#',
+      code: 'https://github.com/Ginnisthegod/TechDevSocials.git',
       demo: 'https://techdevsocial.vercel.app/auth/login'
+    },
+    {
+      title: 'ECHO',
+      description: 'An EV ride Hailing app that connects riders with nearby electric vehicles for a sustainable and convenient transportation experience. Contributed to the frontend, building responsive UI components, authentication flows, and interactive feeds with a focus on performance and clean user experience.',
+      tech: ['Next.js 14', 'TypeScript', 'TailwindCSS'],
+      code: 'https://github.com/Ginnisthegod/ECHO-WEB-.git',
+      demo: 'https://echo-web-silk.vercel.app/'
     },
     {
       title: 'Valentine Site',
@@ -21,7 +28,7 @@ const Projects = () => {
       title: 'UniHubSocial',
       description: 'A social media platform built exclusively for university students to connect, share updates, and engage with their campus community. Contributed to the frontend, building responsive UI components and interactive feeds.',
       tech: ['Next.js', 'TypeScript', 'TailwindCSS'],
-      code: '#',
+      code: 'https://github.com/Ginnisthegod/unihubsocials.git',
       demo: 'https://unihubsocial.netlify.app/'
     },
     
@@ -29,7 +36,7 @@ const Projects = () => {
       title: 'Educeptis',
       description: 'An EdTech platform focused on transforming education in Africa through innovative learning solutions. Contributed to the frontend, building responsive UI components and intuitive user interfaces. Currently in development.',
       tech: ['Next.js', 'TypeScript', 'TailwindCSS'],
-      code: '#',
+      code: 'https://github.com/Ginnisthegod/Educeptis.git',
       demo: 'https://eduresumebuilder.netlify.app/'
     }
   ];

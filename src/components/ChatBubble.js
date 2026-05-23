@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ChatBubble.css';
 
 const ChatBubble = () => {
-  const handleClick = () => {
-    alert('Chat feature coming soon!');
-  };
+  const [show, setShow] = useState(false);
 
   return (
-    <div className="chat-bubble" onClick={handleClick}>
+    <div className="chat-bubble" onClick={() => setShow(!show)}>
       💬
+      {show && <div className="chat-tooltip">Chat feature coming soon!</div>}
     </div>
   );
 };
