@@ -46,23 +46,29 @@
 }
 
 .toggle-track {
-  width: 52px;
+  width: 62px;
   height: 28px;
   border-radius: 999px;
   display: flex;
   align-items: center;
-  padding: 3px;
+  padding: 3px 6px;
+  gap: 4px;
   transition: background 0.3s;
 }
 
 .toggle-track.dark {
   background-color: #ffffff;
-  justify-content: flex-end;
+  flex-direction: row-reverse;
 }
 
 .toggle-track.light {
   background-color: #000000;
-  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.toggle-icon {
+  font-size: 0.85rem;
+  line-height: 1;
 }
 
 .toggle-thumb {

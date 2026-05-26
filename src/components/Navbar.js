@@ -13,6 +13,7 @@ const Navbar = ({ isDark, setIsDark }) => {
       </ul>
       <div className="theme-toggle" onClick={() => setIsDark(!isDark)}>
         <div className={`toggle-track ${isDark ? 'dark' : 'light'}`}>
+          <span className="toggle-icon">{isDark ? '🌙' : '☀️'}</span>
           <div className="toggle-thumb"></div>
         </div>
       </div>
