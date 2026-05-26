@@ -42,23 +42,42 @@
 }
 
 .theme-toggle {
-  background: var(--card-bg);
-  border: 1px solid var(--border-color);
-  font-size: 1.3rem;
   cursor: pointer;
-  color: var(--text-primary);
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
+}
+
+.toggle-track {
+  width: 52px;
+  height: 28px;
+  border-radius: 999px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding: 3px;
+  transition: background 0.3s;
+}
+
+.toggle-track.dark {
+  background-color: #ffffff;
+  justify-content: flex-end;
+}
+
+.toggle-track.light {
+  background-color: #000000;
+  justify-content: flex-start;
+}
+
+.toggle-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
   transition: all 0.3s;
 }
 
-.theme-toggle:hover {
-  background: var(--bg-color);
-  transform: scale(1.1);
+.toggle-track.dark .toggle-thumb {
+  background-color: #000000;
+}
+
+.toggle-track.light .toggle-thumb {
+  background-color: #ffffff;
 }
 
 @media (max-width: 768px) {

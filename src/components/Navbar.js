@@ -11,9 +11,11 @@ const Navbar = ({ isDark, setIsDark }) => {
         <li><a href="#experience"><span className="nav-number">03.</span> Experience</a></li>
         <li><a href="#contact"><span className="nav-number">04.</span> Contact</a></li>
       </ul>
-      <button className="theme-toggle" onClick={() => setIsDark(!isDark)}>
-        {isDark ? '☀' : '🌙'}
-      </button>
+      <div className="theme-toggle" onClick={() => setIsDark(!isDark)}>
+        <div className={`toggle-track ${isDark ? 'dark' : 'light'}`}>
+          <div className="toggle-thumb"></div>
+        </div>
+      </div>
     </nav>
   );
 };
