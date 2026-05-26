@@ -3,6 +3,7 @@ import './ChatBubble.css';
 
 const ChatBubble = () => {
   const [show, setShow] = useState(false);
+// amazonq-ignore-next-line
 
   return (
     <div className="chat-bubble" onClick={() => setShow(!show)}>

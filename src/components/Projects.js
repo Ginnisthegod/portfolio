@@ -12,7 +12,7 @@ const Projects = () => {
     },
     {
       title: 'ECHO',
-      description: 'An EV ride Hailing app that connects riders with nearby electric vehicles for a sustainable and convenient transportation experience. Contributed to the frontend, building responsive UI components, authentication flows, and interactive feeds with a focus on performance and clean user experience.',
+      description: 'An ride Hailing app that connects riders with nearby vehicles for a sustainable and convenient transportation experience. Contributed to the frontend, building responsive UI components, authentication flows, and interactive feeds with a focus on performance and clean user experience.',
       tech: ['Next.js 14', 'TypeScript', 'TailwindCSS'],
       code: 'https://github.com/Ginnisthegod/ECHO-WEB-.git',
       demo: 'https://echo-web-silk.vercel.app/'
@@ -63,7 +63,7 @@ const Projects = () => {
                 </svg>
                 Code
               </a>
-              <a href={project.demo} className="project-link">
+              <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                   <polyline points="15 3 21 3 21 9"></polyline>
